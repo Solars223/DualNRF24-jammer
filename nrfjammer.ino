@@ -9,7 +9,7 @@ byte ptr_hop1 = 0, ptr_hop2 = 12;
 void setup(void) {
   Serial.begin(115200);
   
-  // Инициализация модуль 1
+  
   if (!radio1.begin()) { Serial.println("ERROR nrf24 number one"); while(1); }
   radio1.setPALevel(RF24_PA_MAX);
   radio1.setDataRate(RF24_2MBPS);
@@ -18,7 +18,7 @@ void setup(void) {
   radio1.stopListening();
   radio1.startConstCarrier(RF24_PA_MAX, hopping_channel[0]);
   
-  // Инициализация модуль 2  
+  
   if (!radio2.begin()) { Serial.println("ERROR nrf24 number two"); while(1); }
   radio2.setPALevel(RF24_PA_MAX);
   radio2.setDataRate(RF24_2MBPS);
