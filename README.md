@@ -4,27 +4,27 @@
 
 ## Подключение NRF24 #1
 
-ESP32-S3      NRF24 #1
-3.3V          VCC (+47uF 10V)
-GND           GND
-GPIO4         CE
-GPIO5         CSN
-GPIO11        MOSI
-GPIO12        SCK
-GPIO13        MISO
-ANT           SMA 5dBi
+```ESP32-S3      NRF24 #1
+```3.3V          VCC (+47uF 10V)
+```GND           GND
+```GPIO4         CE
+```GPIO5         CSN
+```GPIO11        MOSI
+```GPIO12        SCK
+```GPIO13        MISO
+```ANT           SMA 5dBi
 
 ## Подключение NRF24 #2
 
-ESP32-S3      NRF24 #2
-3.3V          VCC (+47uF 10V)
-GND           GND
-GPIO15        CE
-GPIO16        CSN
-GPIO11        MOSI (общий с #1)
-GPIO12        SCK (общий с #1)
-GPIO13        MISO (общий с #1)
-ANT           SMA 5dBi
+```ESP32-S3      NRF24 #2
+```3.3V          VCC (+47uF 10V)
+```GND           GND
+```GPIO15        CE
+```GPIO16        CSN
+```GPIO11        MOSI (общий с #1)
+```GPIO12        SCK (общий с #1)
+```GPIO13        MISO (общий с #1)
+```ANT           SMA 5dBi
 
 ## Компоненты
 
